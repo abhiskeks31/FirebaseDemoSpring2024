@@ -1,0 +1,40 @@
+.VBox {
+    -fx-background-color: #f4f4f4; /* Light gray background */
+}
+
+.Label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333; /* Dark gray text */
+    -fx-font-family: "Arial";
+}
+
+.TextField {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #cccccc; /* Light gray border */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.TextField:focused {
+    -fx-border-color: #4CAF50; /* Green border on focus */
+}
+
+.Button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 35px; /* Increased height */
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50; /* Green button color */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.Button:hover {
+    -fx-background-color: #45a049; /* Darker shade on hover */
+}
+
+.Button:pressed {
+    -fx-background-color: #388e3c; /* Darker shade on press */
+}
